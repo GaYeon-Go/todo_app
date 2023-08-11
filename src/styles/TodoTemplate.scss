@@ -1,0 +1,20 @@
+$background-color:#22b8cf; // 자주사용하는 색을 변수로 만들어서 사용한다. (자주사용하는 값을 변수로 지정하고, 변수명으로 넣을 수 있다.)
+
+.TodoTemplate{ //부모 안에 자식으로 html 처럼 작성할 수 있다. (sass는 {}이것이 없지만 scss {}이것을 넣어서 기존의 css와 동일하다)
+  width:512px;
+  margin:6rem auto;
+  border-radius:4px;
+  overflow:hidden;
+  .app-title{
+    background:$background-color;
+    color:#fff;
+    height:4rem;
+    font-size:1.5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .content{
+    background:#fff;
+  }
+}

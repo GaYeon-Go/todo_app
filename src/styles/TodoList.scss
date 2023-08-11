@@ -1,0 +1,5 @@
+.TodoList{
+  min-height:320px;
+  max-height:513px; //max-heihgt의 크기가 넘어가면 overflow-y가 자동으로 scroll이 나오게 한다.
+  overflow-y:auto;
+}

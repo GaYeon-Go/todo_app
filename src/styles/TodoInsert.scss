@@ -1,0 +1,34 @@
+.TodoInsert{
+  display:flex;
+  background:#495057;
+  input{
+    background:none;
+    outline:none;
+    border:none;
+    padding:0.5rem;
+    font-size:1.125rem;
+    line-height:1.5;
+    color:#fff;
+    &::placeholder{
+      color:#dee2e6;
+    } 
+    flex:1; //버튼을 제외한 영역을 모두 차지하기(버튼에 따로 flex를 지정안하면 버튼 크기를 제외한 나머지 크기를 차지한다.)
+  }
+  button{
+    background:none;
+    outline:none;
+    border:none;
+    background:#868e96;
+    color:#fff;
+    padding-left:1rem;
+    padding-right:1rem;
+    font-size:1.5rem;
+    display:flex; //버튼 안의 아이콘을 정렬하기 위해 사용
+    align-items:center;
+    cursor:pointer;
+    transition:background 0.1s ease-in 0s;
+    &:hover{
+      background:#adb5bd;
+    }
+  }
+}
